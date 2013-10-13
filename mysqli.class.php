@@ -56,6 +56,24 @@
 		{
 			return $this->_count;
 		}
+
+		//here we will insert the data in the database.
+		public function insert()
+		{
+
+		}
+
+		//here we wil update the data in the database.
+		public function update($id)
+		{
+
+		}
+
+		//here we will delete the data from the database.
+		public function delete($id)
+		{
+
+		}
 	}
 
 ?>

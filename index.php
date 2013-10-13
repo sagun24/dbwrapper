@@ -23,4 +23,45 @@
 				echo "<br>";	
 			}
 	}
+
+
+
+/*	
+	// test for insert and usage
+	$data['username'] = "test";
+	$data['password'] = "test";
+	$data['first_name'] = "test";
+	$data['last_name'] = "test";
+	$data['previlage'] = 2;
+	$data['email'] = "test";
+	if($insert_id = DB::getInstance()->insert($data,'users'))
+	{
+		echo $insert_id;
+	}
+*/
+
+
+/*
+	// test for the update and usage
+	$data['username'] = "update";
+	$data['password'] = "update";
+	$data['first_name'] = "update";
+	$data['last_name'] = "update";
+	$data['previlage'] = 3;
+	$data['email'] = "update";
+	if(DB::getInstance()->update($data,'users','user_id = 1'))
+	{
+		echo 'Updated';
+	}
+*/
+
+
+/*
+	// test for the delete and usage
+	if(DB::getInstance()->delete('users','user_id = 2'))
+	{
+		echo 'deleted';
+	}
+
+*/
 ?>	
